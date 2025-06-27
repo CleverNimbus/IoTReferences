@@ -1,0 +1,18 @@
+dependencies:
+  espressif/supertinycron:
+    dependencies:
+    - name: idf
+      version: '>=4.1'
+    source:
+      path: /home/sefe/Sources/IoTReferences/EI_ExtraComponents/supertinycron
+      type: local
+    version: 2.0.0~1
+  idf:
+    source:
+      type: idf
+    version: 5.4.1
+direct_dependencies:
+- espressif/supertinycron
+manifest_hash: 41fa7f460dd6e0fe1aaad1f94815be11d9b506328a9a5ada97d39643b9e0a30a
+target: esp32c3
+version: 2.0.0
